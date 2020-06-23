@@ -1,0 +1,30 @@
+
+body{
+	background: url(https://images.unsplash.com/photo-1505159940484-eb2b9f2588e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+     background-size: cover;
+     background-position: center;
+ }
+
+h1{
+	color: orange;
+	font-size: 5em;
+	font-weight:700;
+}
+h3{
+	color:orange;
+
+}
+
+#content
+{
+	text-align: center;
+	padding-top:15%;
+	text-shadow: 0px 4px 3px red,
+	             0px 8px 13px orange,
+	             0px 18px 23px yellow;
+}
+hr{
+	width:400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
