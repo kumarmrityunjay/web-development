@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOTSTRAP  NAVBAR</title>
+	<link rel="stylesheet"type="text/css"href="C:\Users\hp\AppData\Roaming\Sublime Text 3\Packages\user\bootstrap1.css">
+	<!--<link rel="stylesheet"type="text/css"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+    <body>
+    	<!--<h1>Bootstrap navbar</h1>-->
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button"class="navbar-toggle collapsed"data-toggle="collapse"data-target="#demo"aria-expanded="false">
+				   <span class="sr-only">Toggle navigation</span>
+				   <span class="icon-bar"></span>
+				   <span class="icon-bar"></span>
+				   <span class="icon-bar"></span>
+			    </button>
+			<a href="#"class="navbar-brand">TeaforFun</a>
+		</div>
+		
+		<div class="collapse navbar-collapse"id="demo">
+		      <ul class="nav navbar-nav">
+			    
+			      
+		                <li><a href="#">About</a></li>
+		                <li><a href="#">Contact</a></li>
+		                <li><a href="#">Services</a></li>
+		        </ul>
+		 
+		              <ul class="nav navbar-nav navbar-right">
+			          <li><a href="#">Features</a></li>
+			          <li><a href="#">Signin</a></li>
+		             </ul>
+		         </div>
+		      
+		</div>
+	</nav>
+	<script src="C:\Users\hp\AppData\Roaming\Sublime Text 3\Packages\user\jquery.js"></script>
+	<script src="C:\Users\hp\AppData\Roaming\Sublime Text 3\Packages\user\bootstrap.js"></script>
+</head>
+</html>
